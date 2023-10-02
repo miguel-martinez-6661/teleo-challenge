@@ -1,0 +1,22 @@
+{
+  "name": "teleo-api",
+  "version": "1.0.0",
+  "description": "Teleo API + GraphQL challenge",
+  "main": "index.js",
+  "author": "Miguel Martinez",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "dev": "yarn compile && nodemon --experimental-specifier-resolution=node ./dist/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.9.3",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  }
+}
